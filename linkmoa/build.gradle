@@ -36,6 +36,8 @@ dependencies {
 
     // lombok
     compileOnly 'org.projectlombok:lombok'
+
+    // 현재 기준 2.3.232 버전 활용중
     runtimeOnly 'com.h2database:h2'
     runtimeOnly 'org.postgresql:postgresql'
     annotationProcessor 'org.projectlombok:lombok'
